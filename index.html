@@ -11,6 +11,7 @@
             margin: 0;
             padding: 20px;
             background-color: #E0D4A0;
+            box-sizing: border-box; /* Add box-sizing for better control over padding */
         }
         form {
             max-width: 600px;
@@ -19,6 +20,7 @@
             border: 1px solid #BC8235;
             border-radius: 10px;
             background-color: #ffffff;
+            overflow: auto; /* Prevent overflow issues */
         }
         label {
             display: block;
@@ -48,6 +50,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            width: 100%; /* Ensure button takes full width */
         }
         input[type="submit"]:hover {
             background-color: #BC8235;
